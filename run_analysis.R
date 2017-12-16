@@ -30,4 +30,5 @@ summary <-
 
 # write the dataset, 
 message("writing tidy summary dataset")
-fwrite(summary, file="second_dataset_tidy.csv")
+# csv can be written with: fwrite(summary, file="second_dataset_tidy.csv")
+write.table(summary, file="second_dataset_tidy.txt", row.names=FALSE)

@@ -48,11 +48,11 @@ and it is convenient as well to do it as early as possible.
 
 The ``dplyr`` library is used to group the data on activityname and subject, and
 then summarize it by using ``mean`` over all columns. 
-The resulting data table is written to the ``second_dataset_tidy.csv`` file which has the following format:
+The resulting data table is written to the ``second_dataset_tidy.txt`` file which has the following format (it has no column headers):
 
-|Column|Name          | Data type | Description |
-|------|--------------|-----------|-------------|
-| A    | subjectID    | numeric   | identifies the subject that took the test, range 1-30 |
-| B    | activityname | text      | the name of the activity performed, out of six possibilities |
-| C    | activityID   | numeric   | the id of the performed activity |
-| D-CD | -varies-     | numeric   | the average of each measured variable for that subject and activity |
+|Column| Data type | Description |
+|------|-----------|-------------|
+| A    | numeric   | subjectID; identifies the subject that took the test, range 1-30 |
+| B    | text      | activityname; the name of the activity performed, out of six possibilities |
+| C    | numeric   | activityID; the id of the performed activity |
+| D-CD | numeric   | many measurements; each is the average of that measured variable for that subject and activity |
