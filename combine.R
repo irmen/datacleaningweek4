@@ -1,5 +1,5 @@
-# combines the test and train data sets into one.
-# returns a list containing:
+# Combines the test and train data sets into one.
+# Returns a list containing:
 #   combined_all = datafrme with the combination of the test and train data
 #   activities = dataframe with the descriptive names for the activities
 
