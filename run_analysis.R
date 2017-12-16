@@ -1,4 +1,4 @@
-
+# preparation.
 source("get_dataset.R")
 source("combine.R")
 
@@ -22,6 +22,7 @@ combined_data <- merge(combined$activities, combined_data, by="activityID", all.
 # with the average of each variable for each activity and each subject.
 library(tibble)
 library(dplyr)
+library(data.table)
 summary <-
     as_tibble(combined_data) %>%
     group_by(subjectID, activityname) %>%
