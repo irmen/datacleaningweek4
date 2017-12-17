@@ -12,3 +12,6 @@ and the data file is available [here](https://d396qusza40orc.cloudfront.net/getd
 
 
 Perform the analysis by sourcing the ``run_analysys.R`` script.
+
+
+Here's a great [blog post](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/) about this assignment that explains various things about the assignment itself.
